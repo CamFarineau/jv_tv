@@ -1,5 +1,4 @@
 # Video Game Project using Irrlicht
-Projet_JeuVideo_5ETI
 Camille Farineau
 Ahmed Loudghiri
 Xuan-Vinh Tran
@@ -29,17 +28,14 @@ Use the Doxygen documentation (/jv_tv/doc/index.html)
 Cpp sources contain comments
 
 # Controls
-Z => Forward
-S => Backward
-Q => Left Straf
-D => Right Straf
-
-A => Run
-R => Reload
-
-Enter => Ok click / Menu
-Escape => Quit the game
-
+* Z => Forward
+* S => Backward
+* Q => Left Straf
+* D => Right Straf
+* A => Run
+* R => Reload
+* Enter => Ok click / Menu
+* Escape => Quit the game
 
 # Objectives:
 1. Find Rohmer non-player in the castle. (PS: This is a reference to our fellow assistant-professeur D. Rohmer now in Polytechnique University)
