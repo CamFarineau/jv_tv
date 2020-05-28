@@ -1,23 +1,22 @@
-# jv_tv
+# Video Game Project using Irrlicht
 Projet_JeuVideo_5ETI
 Camille Farineau
 Ahmed Loudghiri
 Xuan-Vinh Tran
 
-# Autorisations
-Autorisation de diffuser sur la page dédié et que nos noms y soient affichés
+![alt text](screenshot/screenshot1.png "screenshot")
 
 # Sources
-Toutes les sources peuvent etre trouvees ici : https://github.com/xtran01/jv_tv
+All files can be found here: https://github.com/xtran01/jv_tv
 
 # Copyright
-Tous les models 3D et la map ne nous appartiennent pas.
-- La map peut être trouvée sur ce lien : https://quakearea.com/site/index.php/map/download
-- Tous les models 3D (MD2) proviennent de ce site : http://www.md2.sitters-electronics.nl/models.htm
-- Camera a été créée en partie grâce à ce lien : http://irrlicht.sleek-think.ovh/viewtopic.php?pid=11506
-- Irrlicht doc : http://irrlicht.sourceforge.net/docu/$
+All 3D models including the map does not belong to us.
+- Map: https://quakearea.com/site/index.php/map/download
+- MD2 3D models: http://www.md2.sitters-electronics.nl/models.htm
+- Camera object has been created with the help of: http://irrlicht.sleek-think.ovh/viewtopic.php?pid=11506
+- Irrlicht doc: http://irrlicht.sourceforge.net/docu/$
 
-# Comment Compiler :
+# How to build :
 $. cd jv_tv
 $. mkdir build
 $. cd build
@@ -25,31 +24,24 @@ $. cmake ..
 $. make
 $. ./jv_tv
 
-OU
+# Documentation:
+Use the Doxygen documentation (/jv_tv/doc/index.html)
+Cpp sources contain comments
 
-Ouvrir le CMakelists.txt avec QTCreator
+# Controls
+Z => Forward
+S => Backward
+Q => Left Straf
+D => Right Straf
 
-# Doc:
-Utiliser la documentation Doxygen fournie (/jv_tv/doc/index.html) (Non complète - Travail en cours)
-Le code est commenté (en anglais)
+A => Run
+R => Reload
 
-# Commandes
-Z => Avancer
-S => Reculer
-Q => Strafer à gauche
-D => Strafer à droite
-
-A => Sprinter (appuyer une seule fois)
-R => Recharger
-
-P => Débloque la souris de l'écran de jeu
-Entree => Passer les fenêtres de dialogue / Menu
-Echap => Quitter le jeu
-
-Attention: Redimensionnement de la fenêtre n'est pas geré (au niveau des menus et éléments du gui affichés a l'écran)
+Enter => Ok click / Menu
+Escape => Quit the game
 
 
-# Objectifs:
-1. Chercher Rohmer (PNJ à l'apparence d'un Warrior) dans le château, surtout dans les souterrains ;). (PS: Ceci est un clin d'oeil vers notre assistant-professeur)
-2. Quand il esst trouvé, l'emmener au sommet de la tour, son l'extraction
-3. C'est gagné !
+# Objectives:
+1. Find Rohmer non-player in the castle. (PS: This is a reference to our fellow assistant-professeur D. Rohmer now in Polytechnique University)
+2. When you found him, go the the tower for extraction
+3. You won!
